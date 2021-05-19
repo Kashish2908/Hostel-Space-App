@@ -13,7 +13,6 @@ class _GatepassRequestState extends State<GatepassRequest> {
     return Scaffold(
         appBar: AppBar(
           title: Text("Gatepass Requests"),
-          backgroundColor: Colors.purple,
         ),
         body: StreamBuilder<QuerySnapshot>(
             stream:

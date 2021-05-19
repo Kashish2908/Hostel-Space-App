@@ -13,7 +13,6 @@ class _GatepassListWardenState extends State<GatepassListWarden> {
     return Scaffold(
         appBar: AppBar(
           title: Text("Gate pass List"),
-          backgroundColor: Colors.purple,
         ),
         body: StreamBuilder<QuerySnapshot>(
             stream:
